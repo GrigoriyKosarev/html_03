@@ -67,6 +67,11 @@ header{
     line-height: 20px;
     font-size: 14px;
 }
+footer .menu{
+    position: relative;
+    overflow: hidden;
+    background-color: #e1e1e1;
+}
 footer .menu ul{
     float: left;
     margin-top: 0;
@@ -82,10 +87,6 @@ footer .copyright{
     float: right;
     display: block;
     margin-right: 20px;
-    line-height: 40px;
-    background-color: #e1e1e1;
-}
-.footer_background{
     line-height: 40px;
     background-color: #e1e1e1;
 }
