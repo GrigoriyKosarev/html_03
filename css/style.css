@@ -1,9 +1,9 @@
 body{
     background-color: #f9f9f9;
 }
-.main{
+.wrapper{
     width: 966px;
-    padding: 50px 50px 0 50px;
+    padding: 50px 50px 100% 50px;
     margin:0 auto 0 auto;
     background-color: #ffffff;
 }
@@ -12,6 +12,7 @@ header{
     background-color: #ffffff;
 }
 .menu ul{
+    margin-top: 40px;
     font-size: 0;
     line-height: 0;
     letter-spacing:-1px;
@@ -66,14 +67,18 @@ header{
     font-size: 14px;
 }
 footer .menu ul{
+    float: left;
+
+    margin-top: 0;
     background-color: #e1e1e1;
 }
 footer .menu ul li{
     color: #000000;
 }
-footer .menu ul li:nth-last-child(1){
-    padding-left: 280px;
-}
 footer .menu ul li:hover{
+    background-color: #e1e1e1;
+}
+.copyright{
+    line-height: 40px;
     background-color: #e1e1e1;
 }
