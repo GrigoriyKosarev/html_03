@@ -69,7 +69,6 @@ header{
 }
 footer .menu ul{
     float: left;
-
     margin-top: 0;
     background-color: #e1e1e1;
 }
@@ -79,7 +78,9 @@ footer .menu ul li{
 footer .menu ul li:hover{
     background-color: #e1e1e1;
 }
-.copyright{
+footer .copyright{
+    float: right;
+    display: block;
     line-height: 40px;
     background-color: #e1e1e1;
 }
