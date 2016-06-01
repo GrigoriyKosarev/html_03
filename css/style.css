@@ -81,6 +81,11 @@ footer .menu ul li:hover{
 footer .copyright{
     float: right;
     display: block;
+    margin-right: 20px;
+    line-height: 40px;
+    background-color: #e1e1e1;
+}
+.footer_background{
     line-height: 40px;
     background-color: #e1e1e1;
 }
