@@ -6,6 +6,7 @@ body{
     padding: 50px 50px 100% 50px;
     margin:0 auto 0 auto;
     background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 header{
     margin: 0px 0 40px 0;
